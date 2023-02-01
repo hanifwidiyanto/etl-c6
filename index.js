@@ -1,7 +1,7 @@
 const arr = [1, 2, 3, 4, 6, 5, 7, 8, 9, 10, 11, 13, 12, 14, 15, 16, 17, 18, 19, 20]
 
-const quarto = Math.floor(arr.length / 4)
 const half = arr.length / 2
+const quarto = half / 2
 const poin = 1
 
 for (let i = 0; i < arr.length; i++) {
